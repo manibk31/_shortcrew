@@ -1,8 +1,8 @@
 
 
 .poster {
-  background-image: url(https://images.unsplash.com/photo-1486693128850-a77436e7ba3c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jakob-owens-205637.jpg&s=61613321d08dac1adcde546e09e51615);
-  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1457734933360-81bb2e6ed002?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=mitch-nielsen-73284.jpg&s=b92d9eba6593c6718921e07af8231eac);
+   background-size: cover;
   
   width:100%;
   height: 100vh;
@@ -20,12 +20,34 @@
 html,body{
     background-color: white !important;
 }
-.logo{
+.poster-content{
    position: relative;
-   top: 20%;
-   color: white;
-   font-size: 3em;
+   top: 12.5%;
+    color: white;
+   
 }
+.poster-content .logo{
+   
+   font-size: 5em;
+   margin-bottom: 100px;
+}
+.poster-content .tag-line{
+    font-size: 1.5em;
+}
+
 .platform i{
-   font-size: 5em !important;
+    font-size: 5em;
+}
+.platform .platform-content
+{
+    color: #4a4a4a;
+    font-size: 1.5em;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.platform .platform-content .platform-text{
+    margin-top:20px;
+}
+.poster-content .block{
+    margin-top: 3%;
 }
