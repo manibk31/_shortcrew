@@ -2,8 +2,7 @@
 
 .poster {
   background-image: url(https://images.unsplash.com/photo-1457734933360-81bb2e6ed002?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&dl=mitch-nielsen-73284.jpg&s=b92d9eba6593c6718921e07af8231eac);
-   background-size: cover;
-  
+  background-size: cover;
   width:100%;
   height: 100vh;
   
