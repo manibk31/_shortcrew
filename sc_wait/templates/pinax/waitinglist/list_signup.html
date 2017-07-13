@@ -9,13 +9,62 @@
 {% block wrapper_class %}site-wrapper{% endblock %}
 
 {% block body_base %}
+
     <div class="site-wrapper-inner">
-        <div class="cover-container">
-            <div class="inner cover">
-                <h1 class="cover-heading">Sign up on our waiting list!</h1>
-                <p class="lead">
-                    Once this site is ready to launch, you will be emailed.
-                </p>
+        <div class="poster ">
+            <div class="logo">ShortCrew</div>
+          
+           
+        </div>
+
+         <div class="platform">
+
+       <div class="row" style="margin-top:10% ;margin-bottom:10%"> 
+
+<div class=" col-md-offset-1 col-md-10">
+        <div class="row">
+  <div class="col-md-4">
+
+    <div class="row">
+
+        <i class="fa fa-search fa-5x" aria-hidden="true"></i>
+
+    </div>
+
+
+  </div>
+  <div class="col-md-4">
+
+     <div class="row">
+
+        <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+
+    </div>
+
+
+
+  </div>
+  <div class="col-md-4">
+
+     <div class="row">
+
+        <i class="fa fa-share-alt fa-5x" aria-hidden="true"></i>
+
+    </div>
+
+
+
+  </div>
+ 
+</div>
+</div>
+
+        </div>
+        </div>
+        <div class="sign-up" >
+                  <div class="inner cover"id="cover-container" >
+                <h1 class="cover-heading" style="margin-bottom:10px;">Sign up on our waiting list!</h1>
+              
                 {% if form.email.errors %}
                     <b>{{ form.email.errors.0 }}</b>
                 {% endif %}
@@ -29,13 +78,16 @@
                     <button class="btn btn-default btn-lg">Submit</button>
                 </form>
             </div>
-            <div class="mastfoot">
+        </div>
+       
+         <div >
                 <div class="inner">
                     <p>{% include "_footer.html" %}</p>
                 </div>
             </div>
-        </div>
     </div>
+
+
 {% endblock %}
 
 {% block footer_base %}{% endblock %}
